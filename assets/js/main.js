@@ -665,6 +665,23 @@
 
     $(".circle-title-anime").lettering();
     
+
+    window.scrollToSection = function () {
+        if (typeof $ === 'undefined') {
+            alert('jQuery is not loaded!');
+            return;
+        }
+        var target = $(".service-area-1");
+        if (target.length) {
+            console.log('Scrolling to .service-area-1');
+            $('html, body').animate({
+                scrollTop: target.offset().top - 50
+            }, 400);
+        } else {
+            console.log('Could not find .service-area-1');
+        }
+    }
+
 })(jQuery);
 
 
