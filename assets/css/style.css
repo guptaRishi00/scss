@@ -79,7 +79,7 @@
 :root {
   --theme-color: #207d80;
   --theme-color2: #fff173;
-  --title-color: #196164;
+  --title-color: #0f74c1;
   --body-color: #7a7a7a;
   --smoke-color: #ebf3ee;
   --smoke-color2: #f6f6f7;
@@ -109,6 +109,7 @@
 html,
 body {
   scroll-behavior: smooth !important;
+  background-color: #ebf3ee;
 }
 
 body {
