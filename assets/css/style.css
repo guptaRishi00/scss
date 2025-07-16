@@ -110,7 +110,9 @@ html,
 body {
   scroll-behavior: smooth !important;
 }
-
+.my-class{
+  margin-top: 20px;
+}
 body {
   font-family: var(--body-font);
   font-size: 16px;
